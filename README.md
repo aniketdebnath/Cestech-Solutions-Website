@@ -49,7 +49,7 @@ git clone https://github.com/aniketdebnath/Web-based-Job-Management-System.git
 ```  
 2. Navigate to the project directory:
 ```
-cd Web-based-Job-Management-System
+cd /path/to/your/source/code.
 ```
 
 3. Configure your web server to point to the project directory as the document root.
