@@ -55,10 +55,10 @@ cd job-management-system
 3. Configure your web server to point to the project directory as the document root.
 4. Import any necessary SQL files into your database system to set up the schema and initial data (if not provided, you'll need to set this up manually).
 
-###Usage
+### Usage
 
--Open your web browser and navigate to your local or online server address. Register as a new user to interact with the system, or log in if you already have an account.
+- Open your web browser and navigate to your local or online server address. Register as a new user to interact with the system, or log in if you already have an account.
 
-##Contributing
+## Contributing
 
--Contributions are welcome! Feel free to fork the repository and submit pull requests. You can also open issues if you find bugs or have feature suggestions.
+- Contributions are welcome! Feel free to fork the repository and submit pull requests. You can also open issues if you find bugs or have feature suggestions.
