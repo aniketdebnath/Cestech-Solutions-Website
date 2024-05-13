@@ -53,9 +53,7 @@ cd /path/to/your/source/code.
 ```
 
 3. Configure your web server to point to the project directory as the document root.
-4. Import any necessary SQL files into your database system to set up the schema and initial data (if not provided, you'll need to set this up manually).
-
-### Usage
+4. Import any necessary SQL files into your database system to set up the schema and initial data.
 
 - Open your web browser and navigate to your local or online server address. Register as a new user to interact with the system, or log in if you already have an account.
 
