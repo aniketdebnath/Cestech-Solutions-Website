@@ -57,8 +57,8 @@ cd job-management-system
 
 ###Usage
 
---Open your web browser and navigate to your local or online server address. Register as a new user to interact with the system, or log in if you already have an account.
+-Open your web browser and navigate to your local or online server address. Register as a new user to interact with the system, or log in if you already have an account.
 
 ##Contributing
 
---Contributions are welcome! Feel free to fork the repository and submit pull requests. You can also open issues if you find bugs or have feature suggestions.
+-Contributions are welcome! Feel free to fork the repository and submit pull requests. You can also open issues if you find bugs or have feature suggestions.
