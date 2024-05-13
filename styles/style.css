@@ -1,0 +1,285 @@
+/* Author: Aniket Debnath Student ID: 103126828 Style sheet for CesTech Solutions website. */
+/* Global styles */
+ * {
+     font-family: Arial, Helvetica, sans-serif, Roboto;
+}
+ body {
+     background-color: rgb(220, 223, 240);
+}
+/*-----------------index page------------------------*/
+ #nav {
+     list-style-type: none;
+    /* removes bullet points */
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: #333;
+     font-weight: bold;
+}
+/* nav menu styling */
+ #nav li {
+     float: left;
+     line-height: 2em;
+    /* makes the list items display horizontally */
+}
+/* Styles the links in the menu items */
+ #nav li a {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+#nav li a:hover,
+#nav li a.active {
+  background-color: red;
+  /* Styling for hover and active states */
+}
+
+/* Float the right-side links to the right */
+#nav .right {
+	background-color: black;
+}
+
+
+#nav li.right {
+  float: right;
+}
+
+#nav li a.right {
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+}
+/* adds a background image to the text */
+ #banner {
+     background-image: url("images/cos8.jpg");
+     background-size: cover;
+     background-position: center;
+     opacity: .9;
+     text-align: center;
+     line-height: 6em;
+     font-size: 3em;
+     color: black;
+}
+ #banner a {
+     text-decoration: none;
+     color: black;
+}
+ #content {
+     text-align: center;
+}
+ #content ul {
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+     text-align: center;
+     line-height:4em;
+     font-weight: bold;
+}
+ #content li {
+     display: inline-block;
+     margin-right: 20px;
+}
+ .image_i {
+     max-width: 100%;
+     height: 10vw;
+     margin: auto;
+}
+/*-----------------jobs page------------------------*/
+ .h1 {
+     font: bold 24px/1.2 "Roboto", sans-serif;
+     text-align:center;
+}
+ .h2 {
+     font: bold 16px/1.2 "Roboto", sans-serif;
+}
+ aside {
+     width: 25%;
+     padding-left: 0.5em;
+     margin-left: 0.5em;
+     margin-right:0.5em;
+     float: right;
+     border: 1px solid;
+     font-style: italic;
+     color: #29627e;
+     text-align:justify;
+}
+ aside > p {
+     margin: 1em;
+}
+ .image_j {
+     display: inline-block;
+     float:right;
+     max-width: 100%;
+     height: 13vw;
+     margin-right: 0.5em;
+}
+/*-----------------about page------------------------*/
+/* formats the definition list such that the terms are floating on the left of the definitions. */
+ dt {
+     float: left;
+     width: 100px;
+     text-align: left;
+     font-weight: bold;
+}
+/* adds a ":" after the left hand side content inside */
+ dt::after {
+     content: ":";
+}
+ dd {
+     margin: 0px 0px 0px 100px;
+     padding: 0em 0em 0.5em 1em;
+     text-align: left;
+}
+/*styling the timetable*/
+ #timetable_text{
+     text-align:center;
+}
+ #timetable {
+     background-color: white;
+     border-collapse: collapse;
+     text-align: center;
+     margin-left:auto;
+     margin-right:auto;
+     table-layout:fixed;
+}
+ #timetable th, td{
+     font-size:0.75em;
+     width:100px;
+     height:40px;
+     padding:0.5em;
+     border-style: solid;
+     border-width: 1px;
+}
+/*changes color of the timetable space*/
+ .cos10011 {
+     background-color: #02e9fa;
+}
+ .cos30008 {
+     background-color: #ac99d1;
+}
+ .eee40002 {
+     background-color: #f073c0;
+}
+ .tne10005 {
+     background-color: #a69c50;
+}
+/*styling profile picture*/
+ #picture {
+     border: 1px solid black;
+     float: right;
+     text-align:center;
+     padding:5px;
+}
+/* Footer styles */
+ footer {
+     background-color: #f2f2f2;
+     color: #333;
+     padding: 20px;
+     text-align: center;
+     font-size: .75em;
+     line-height: 2em;
+}
+
+#error-message {
+  white-space:pre-line;
+  font-size: .9em;
+  color: red;
+  padding: 10px;
+  margin-top: 5px;
+}
+ 
+.container {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+}
+
+.container h2 {
+  margin-bottom: 10px;
+}
+
+.container form {
+  margin-bottom: 10px;
+}
+
+.container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.container table th,
+.container table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.container table th {
+  background-color: #f2f2f2;
+}
+
+.container table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+/*login register and logout styles*/
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+}
+
+.form-container form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.form-container button {
+  padding: 8px 16px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.form-container button:hover {
+  background-color: #555;
+}
+
+.logout-button {
+  font-size: 0.95em;
+  padding: 8px 16px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.logout-button:hover {
+  background-color: #555;
+}
