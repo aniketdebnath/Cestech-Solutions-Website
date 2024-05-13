@@ -45,11 +45,11 @@ Files and their primary functionalities:
 
 1. Clone the repository to your local machine or web server document root:
 ```
-git clone https://github.com/yourusername/job-management-system.git
+git clone https://github.com/aniketdebnath/Web-based-Job-Management-System.git
 ```  
 2. Navigate to the project directory:
 ```
-cd job-management-system
+cd Web-based-Job-Management-System
 ```
 
 3. Configure your web server to point to the project directory as the document root.
